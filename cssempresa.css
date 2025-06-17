@@ -1,0 +1,145 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.logo {
+  height: 90px;
+  margin-left: 1700px;
+  vertical-align: center;
+}
+
+
+
+/* Encabezado */
+header {
+  background: linear-gradient(90deg, #0077cc, #005fa3);
+  color: #fff;
+  padding: 20px 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 4em;
+
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+
+  
+}
+
+nav ul li {
+  margin-right: 20px;
+ 
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 6px 12px;
+  transition: background 0.3s;
+  
+}
+
+nav ul li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+ 
+}
+
+/* Secciones */
+section {
+  background: #fff;
+  padding: 30px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #0077cc;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 5px;
+}
+
+section ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+section blockquote {
+  font-style: italic;
+  color: #555;
+  background: #f1f1f1;
+  padding: 15px;
+  border-left: 5px solid #0077cc;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+/* Formulario */
+form {
+  margin-top: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 1em;
+}
+
+button {
+  background: #0077cc;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1em;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #222;
+  color: #ccc;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
+
+
